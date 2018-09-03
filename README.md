@@ -1,10 +1,12 @@
-HTML Renderer
+HTML Renderer with .NET Standard 2.0
 =============
 
 #### Documentation (original), Discussion and Issue tracking is on [CodePlex](https://htmlrenderer.codeplex.com/).
 
 
-#### New Documentation with .NET 2.1 project
+#### New Documentation for .NET 2.1 project
+
+## Simply load html template and save it as new PDF file
 
 var htmlTemplateFile = ".//03.Tables.htm";
 
