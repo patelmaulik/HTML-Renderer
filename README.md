@@ -11,6 +11,7 @@ HTML Renderer with .NET Standard 2.0
 var htmlTemplateFile = ".//03.Tables.htm";
 
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
 var html = await File.OpenText(htmlTemplateFile).ReadToEndAsync();
 
 var pdf = HtmlRendererCore.PdfSharp.PdfGenerator.GeneratePdf(html, PdfSharp.PageSize.A4);
