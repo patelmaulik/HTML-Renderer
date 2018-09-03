@@ -10,14 +10,14 @@
 // - Sun Tsu,
 // "The Art of War"
 
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using System.Text;
-
 namespace TheArtOfDev.HtmlRenderer.Demo.Common
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Reflection;
+    using System.Text;
+
     public static class SamplesLoader
     {
         /// <summary>
