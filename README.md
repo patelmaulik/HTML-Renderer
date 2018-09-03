@@ -21,3 +21,4 @@ var generatedPdfFile = ".//03Tables.pdf";
 pdf.Save(generatedPdfFile);
 			
 
+## See SampleTemplates folder for html temlpates for demo in the above code snippet
